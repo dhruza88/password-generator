@@ -20,9 +20,15 @@ URL to project below:
 https://dhruza88.github.io/password-generator/
 
 Screenshots of Different portions of the site
+
 https://github.com/dhruza88/password-generator/blob/main/images/ss-1.png
+
 https://github.com/dhruza88/password-generator/blob/main/images/ss-2.png
+
 https://github.com/dhruza88/password-generator/blob/main/images/ss-3.png
+
 https://github.com/dhruza88/password-generator/blob/main/images/ss-4.png
+
 https://github.com/dhruza88/password-generator/blob/main/images/ss-5.png
+
 https://github.com/dhruza88/password-generator/blob/main/images/ss-6.png
