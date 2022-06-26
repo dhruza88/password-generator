@@ -39,8 +39,8 @@ function generatePassword(){
     return msgs.youCanceled;
   }
   if (falseParameters(parameters)) {
-    alert(msgs.oneCharSel); //make sure correct length 
-    let cancel = confirm(msgs.selCancel); //cancels out if selected
+    alert(msgs.oneCharSel);                                                         //make sure correct length 
+    let cancel = confirm(msgs.selCancel);                                           //cancels out if selected
     if (!cancel) {
       generatePassword();
     } else {
@@ -48,9 +48,9 @@ function generatePassword(){
     }
   }
 
-  for(i=0; i<parameters.length; i++) {                                          //for loop to generate password
+  for(i=0; i<parameters.length; i++) {                                              //for loop to generate password
     password =
-      password.length > 0 ?                                                           //ensures that the password is of right length and creates it based on provided variables
+      password.length > 0 ?                                                         //ensures that the password is of right length and creates it based on provided variables
       password + getSelectedCharacter(parameters) :
       getSelectedCharacter(parameters);
   }
